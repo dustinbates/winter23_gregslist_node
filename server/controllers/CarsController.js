@@ -12,9 +12,6 @@ export class CarsController extends BaseController {
       .delete('/:carId', this.destroyCarById)
   }
 
-
-
-
   async getCars(req, res, next) {
     try {
       const query = req.query
